@@ -1,0 +1,56 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+.rectangle {
+    width: 100%; 
+    max-width: 1500px;
+    height: 80px; 
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+  }
+  .rectangle .contents{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    
+  }
+  .rectangle:hover{
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33,33,33,.2),
+              0 0 11px rgba(33,33,33,.2),
+              0 0 11px rgba(33,33,33,.2);
+}
+
+
+  .rectangle a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+  }
+  .container-fluid .container{ 
+    padding-top: 10px; 
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: bold;
+    
+  }
+  .container-fluid .content{
+    font-Size:1.3rem;
+    text-Align:left;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+ /** .header{
+    background: linear-gradient(170deg, rgba(92,150,7,1) 0%, rgba(108,174,75,1) 6%, rgba(96,148,52,1) 100%, rgba(135,232,128,1) 100%, rgba(233,242,232,1) 100%);
+  }**/
+  
+  
